@@ -4,15 +4,21 @@
 
 ## 打开网站
 
-网页入口：`site/index.html`。全部网页资源随项目提供，不依赖外部CDN。
+在线访问：[国际化评论治理工作台](https://samtsunami-tech.github.io/comment-governance-workbench/)。其他人可以直接打开，无需安装前端依赖或模型。
 
-本机预览可在项目目录运行：
+标注、导入和策略记录保存在访问者自己的浏览器中。需要迁移时，点击“导出工作记录”。
+
+源码仓库：[SamTsunami-tech/comment-governance-workbench](https://github.com/SamTsunami-tech/comment-governance-workbench)。
+
+### 本地开发预览
+
+网页入口为 `site/index.html`，全部网页资源随项目提供，不依赖外部CDN。在项目目录运行：
 
 ```bash
 python3 -m http.server 8772 --bind 127.0.0.1 --directory site
 ```
 
-随后打开 http://127.0.0.1:8772/ 。网页本身不需要安装前端依赖或模型。标注、导入和策略记录保存在当前浏览器，需要迁移时使用“导出工作记录”。
+本机开发时打开 http://127.0.0.1:8772/ 。分享给其他人时使用上面的在线访问链接。
 
 ## 可以演示什么
 
@@ -61,11 +67,3 @@ python3 -m unittest discover -s engine -p 'test_*.py' -v
 这些检查不安装模型或下载权重。可选模型服务说明见 `engine/Detoxify接入说明.md`；它不属于静态网站默认运行链路。
 
 本批38项代码检查通过。2026年10月26日，用户选择先交付、不继续浏览器测试；完整浏览器交互验收未完成，按该范围交付。具体记录见 `docs/测试说明.md`。
-
-## 后续发布
-
-当前尚未上传GitHub，等待目标账号完成官方网页授权后创建仓库并发布。已经准备好 `.github/workflows/pages.yml`，发布时将 `site/` 作为网页产物。GitHub端需将Pages发布来源设为GitHub Actions后实际运行并核验；此处只准备配置，没有伪称部署成功。
-
-不需要在聊天中提供密码、Token或SSH私钥。发布时通过本机GitHub CLI的网页授权流程登录目标账号即可。工作流依据官方文档：https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages 。
-
-本项目使用AI辅助整理和实现；面试时按实际代码、测试和自己的理解说明贡献。当前是作品集，不包含benchmark题面、评分表或随机文件时间处理。

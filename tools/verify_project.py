@@ -52,7 +52,7 @@ def main():
             'not_replaced_by_unit_tests':True,
         },
         'model_inference':'not run; default is rule-based',
-        'github_deployment':'not run; waiting for the user-selected new account',
+        'github_deployment':'not checked by these local tests; see docs/测试说明.md for publication verification',
         'not_a_benchmark':True,
     }
     (work/'测试与交付核验.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
