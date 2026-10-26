@@ -1,0 +1,108 @@
+{
+  "项目": "CommentOps 国际化评论治理作品集",
+  "记录日期": "2026-10-26",
+  "用途": "纯中文求职作品集；尚未发布",
+  "仓库": [
+    {
+      "仓库": "apache/echarts",
+      "官方链接": "https://github.com/apache/echarts",
+      "固定提交": "52104f7daefb8d01ea809189dab81cadc874ce09",
+      "源码链接": "https://github.com/apache/echarts/tree/52104f7daefb8d01ea809189dab81cadc874ce09",
+      "许可证": "Apache-2.0",
+      "许可证链接": "https://github.com/apache/echarts/blob/52104f7daefb8d01ea809189dab81cadc874ce09/LICENSE",
+      "采用状态": "实际代码复用",
+      "适用能力": "本地离线图表：风险分布、召回与误杀、语言切片、策略对比。",
+      "实际使用边界": "网页真实加载固定6.0.0 JavaScript；无远程CDN。",
+      "关键限制": "未修改上游压缩代码；保留完整LICENSE与NOTICE。",
+      "核验记录": "research/repository_checks.json",
+      "检索依据": "官方GitHub API、固定提交README及LICENSE，不按star排名"
+    },
+    {
+      "仓库": "HumanSignal/label-studio",
+      "官方链接": "https://github.com/HumanSignal/label-studio",
+      "固定提交": "34956bec69d347ef3b17ee8d61efb3d915e4a6e4",
+      "源码链接": "https://github.com/HumanSignal/label-studio/tree/34956bec69d347ef3b17ee8d61efb3d915e4a6e4",
+      "许可证": "Apache-2.0",
+      "许可证链接": "https://github.com/HumanSignal/label-studio/blob/34956bec69d347ef3b17ee8d61efb3d915e4a6e4/LICENSE",
+      "采用状态": "格式对接",
+      "适用能力": "样本任务、预标注与人工标注结果导出。",
+      "实际使用边界": "生成Label Studio任务JSON及标注配置；未安装或运行Label Studio服务。",
+      "关键限制": "开源版不等同企业协作功能；需另行导入服务验收权限、任务分配和冲突裁决。",
+      "核验记录": "research/repository_checks.json",
+      "检索依据": "官方GitHub API、固定提交README及LICENSE，不按star排名"
+    },
+    {
+      "仓库": "unitaryai/detoxify",
+      "官方链接": "https://github.com/unitaryai/detoxify",
+      "固定提交": "9dcc0edf0f4f1a1d4c6320fa5c1e696064c356d5",
+      "源码链接": "https://github.com/unitaryai/detoxify/tree/9dcc0edf0f4f1a1d4c6320fa5c1e696064c356d5",
+      "许可证": "Apache-2.0",
+      "许可证链接": "https://github.com/unitaryai/detoxify/blob/9dcc0edf0f4f1a1d4c6320fa5c1e696064c356d5/LICENSE",
+      "采用状态": "可选接口预留",
+      "适用能力": "多语种有害评论分数的外部推理接入。",
+      "实际使用边界": "仅预留输入输出格式；未下载权重、未执行Detoxify预测。",
+      "关键限制": "官方multilingual推荐范围为英语、法语、西班牙语、意大利语、葡萄牙语、土耳其语、俄语；中文、阿语等不能据此声称有效。",
+      "核验记录": "research/repository_checks.json",
+      "检索依据": "官方GitHub API、固定提交README及LICENSE，不按star排名"
+    },
+    {
+      "仓库": "evidentlyai/evidently",
+      "官方链接": "https://github.com/evidentlyai/evidently",
+      "固定提交": "34771fe41c08ca074d96a52aaf4a45cd640cbaf5",
+      "源码链接": "https://github.com/evidentlyai/evidently/tree/34771fe41c08ca074d96a52aaf4a45cd640cbaf5",
+      "许可证": "Apache-2.0",
+      "许可证链接": "https://github.com/evidentlyai/evidently/blob/34771fe41c08ca074d96a52aaf4a45cd640cbaf5/LICENSE",
+      "采用状态": "设计参考",
+      "适用能力": "数据质量、分类评估、参考窗口与当前窗口比较。",
+      "实际使用边界": "借鉴指标分层；当前展示与计算由项目自身实现，未调用Evidently。",
+      "关键限制": "分布漂移并不自动等于违规率变化或策略因果效果。",
+      "核验记录": "research/repository_checks.json",
+      "检索依据": "官方GitHub API、固定提交README及LICENSE，不按star排名"
+    },
+    {
+      "仓库": "argilla-io/argilla",
+      "官方链接": "https://github.com/argilla-io/argilla",
+      "固定提交": "5338519accb13ae422f8bf9c0642651c249c49af",
+      "源码链接": "https://github.com/argilla-io/argilla/tree/5338519accb13ae422f8bf9c0642651c249c49af",
+      "许可证": "Apache-2.0",
+      "许可证链接": "https://github.com/argilla-io/argilla/blob/5338519accb13ae422f8bf9c0642651c249c49af/LICENSE",
+      "采用状态": "备选方案",
+      "适用能力": "审核队列、建议标签、人工反馈回流。",
+      "实际使用边界": "仅方案比较；未安装或调用SDK。",
+      "关键限制": "固定提交README说明未来不新增功能、保留修复；本作品集不引入完整服务。",
+      "核验记录": "research/repository_checks.json",
+      "检索依据": "官方GitHub API、固定提交README及LICENSE，不按star排名"
+    },
+    {
+      "仓库": "paul-rottger/hatecheck-data",
+      "官方链接": "https://github.com/paul-rottger/hatecheck-data",
+      "固定提交": "3490854f969111a32c55c05f0d9788b471337fa9",
+      "源码链接": "https://github.com/paul-rottger/hatecheck-data/tree/3490854f969111a32c55c05f0d9788b471337fa9",
+      "许可证": "CC-BY-4.0",
+      "许可证链接": "https://github.com/paul-rottger/hatecheck-data/blob/3490854f969111a32c55c05f0d9788b471337fa9/LICENSE",
+      "采用状态": "测试设计参考",
+      "适用能力": "按功能类型构造否定、引用、反仇恨、拼写变体等边界用例。",
+      "实际使用边界": "只参考功能测试思路；未复制或分发3,728条数据。",
+      "关键限制": "该套件侧重英语仇恨言论，不覆盖完整评论治理类别或多语种生产分布。",
+      "核验记录": "research/repository_checks.json",
+      "检索依据": "官方GitHub API、固定提交README及LICENSE，不按star排名"
+    }
+  ],
+  "许可边界": "源码许可证不自动授予模型权重、训练数据或第三方评论的使用权；本次未下载大型模型或原始评论数据集。演示样本由项目另行声明来源。",
+  "实际资源": {
+    "路径": "third_party/echarts-6.0.0/echarts.min.js",
+    "版本": "6.0.0",
+    "SHA256": "baa8dfe7e1d9336b98e8986ba7e20ea15e7cdbea1ef42a59d59478632fa45a1d",
+    "字节": 1117939,
+    "加载检查": {
+      "version": "6.0.0",
+      "init": "function",
+      "graphic": "object"
+    },
+    "附带": [
+      "LICENSE",
+      "NOTICE",
+      "README.md"
+    ]
+  }
+}

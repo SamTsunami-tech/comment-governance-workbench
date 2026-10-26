@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102a2b">
+  <meta name="description" content="国际化短视频评论治理作品集：风险排查、样本标注、策略验证与运营交付。">
+  <title>评论治理台 · 国际化内容安全作品集</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要内容</a>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#overview"><span class="brand-symbol">评</span><span>评论治理台<small>国际化内容安全作品集</small></span></a>
+      <div class="workspace"><span class="workspace-icon">◎</span><div>短视频评论治理<small>个人演示工作空间</small></div><span class="workspace-arrow">⌄</span></div>
+      <div class="nav-label">工作空间</div>
+      <nav id="nav" aria-label="主导航"></nav>
+      <div class="sidebar-bottom"><div class="local-indicator"><span></span> 本机保存已开启</div><p>场景数据 · 本地规则引擎</p><button id="reset-demo" class="sidebar-button">重置演示</button></div>
+    </aside>
+    <div class="page">
+      <header class="topbar"><div><span class="muted">内容安全</span><span class="crumb-sep">/</span><span id="breadcrumb">治理总览</span></div><div class="top-actions"><span class="demo-badge"><i></i> 演示工作空间</span><button class="button small" id="export-work">导出工作记录 <span>↗</span></button><span class="avatar" title="本地演示角色">我</span></div></header>
+      <main id="main" tabindex="-1"></main>
+      <footer><span>评论治理台 · 从风险发现到策略验证</span><span>本地规则演示，非平台线上数据</span></footer>
+    </div>
+  </div>
+  <div id="overlay"></div><div id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/echarts.min.js"></script>
+  <script src="assets/comment-engine.js"></script>
+  <script src="assets/samples.js"></script>
+  <script src="assets/sources.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

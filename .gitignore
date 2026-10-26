@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+work/
+发布包/
+.venv/
+local-models/
+private-data/
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519

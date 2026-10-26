@@ -1,0 +1,194 @@
+[
+  {
+    "repository": "apache/echarts",
+    "checked_at": "2026-10-26T09:33:15.661022+00:00",
+    "url": "https://github.com/apache/echarts",
+    "default_branch": "master",
+    "commit": "52104f7daefb8d01ea809189dab81cadc874ce09",
+    "license_api": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "archived": false,
+    "pushed_at": "2026-10-13T09:27:20Z",
+    "files": {
+      "dist/echarts.min.js": {
+        "path": "third_party/echarts-6.0.0/echarts.min.js",
+        "source": "https://raw.githubusercontent.com/apache/echarts/52104f7daefb8d01ea809189dab81cadc874ce09/dist/echarts.min.js",
+        "sha256": "baa8dfe7e1d9336b98e8986ba7e20ea15e7cdbea1ef42a59d59478632fa45a1d",
+        "bytes": 1117939
+      },
+      "LICENSE": {
+        "path": "third_party/echarts-6.0.0/LICENSE",
+        "source": "https://raw.githubusercontent.com/apache/echarts/52104f7daefb8d01ea809189dab81cadc874ce09/LICENSE",
+        "sha256": "634293835b43a6dd2094fa39182a3d9a6b9ca43b7fdb9ac354e8037af2a3093a",
+        "bytes": 11990
+      },
+      "NOTICE": {
+        "path": "third_party/echarts-6.0.0/NOTICE",
+        "source": "https://raw.githubusercontent.com/apache/echarts/52104f7daefb8d01ea809189dab81cadc874ce09/NOTICE",
+        "sha256": "dc0d9176413c3d96d0ac40b39b1dbb11e3043b7b010be560f5dfe66bd3774ae1",
+        "bytes": 168
+      },
+      "README.md": {
+        "path": "third_party/echarts-6.0.0/README.md",
+        "source": "https://raw.githubusercontent.com/apache/echarts/52104f7daefb8d01ea809189dab81cadc874ce09/README.md",
+        "sha256": "8cc8864325843d975f082cba0fd4cf208093feffb03568f48f164725dab8ebf9",
+        "bytes": 4194
+      }
+    }
+  },
+  {
+    "repository": "unitaryai/detoxify",
+    "checked_at": "2026-10-26T09:33:15.661398+00:00",
+    "url": "https://github.com/unitaryai/detoxify",
+    "default_branch": "master",
+    "commit": "9dcc0edf0f4f1a1d4c6320fa5c1e696064c356d5",
+    "license_api": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "archived": false,
+    "pushed_at": "2026-10-20T13:07:53Z",
+    "files": {
+      "README.md": {
+        "path": "research/unitaryai__detoxify__README.md",
+        "source": "https://raw.githubusercontent.com/unitaryai/detoxify/9dcc0edf0f4f1a1d4c6320fa5c1e696064c356d5/README.md",
+        "sha256": "3970c627ccbc120b6e10c802a20cb36e43b341a30b8314da656f1cfb1b4fc460",
+        "bytes": 14114
+      },
+      "LICENSE": {
+        "path": "research/unitaryai__detoxify__LICENSE",
+        "source": "https://raw.githubusercontent.com/unitaryai/detoxify/9dcc0edf0f4f1a1d4c6320fa5c1e696064c356d5/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "bytes": 11357
+      }
+    }
+  },
+  {
+    "repository": "HumanSignal/label-studio",
+    "checked_at": "2026-10-26T09:33:15.661529+00:00",
+    "url": "https://github.com/HumanSignal/label-studio",
+    "default_branch": "develop",
+    "commit": "34956bec69d347ef3b17ee8d61efb3d915e4a6e4",
+    "license_api": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "archived": false,
+    "pushed_at": "2026-10-26T09:03:51Z",
+    "files": {
+      "README.md": {
+        "path": "research/HumanSignal__label-studio__README.md",
+        "source": "https://raw.githubusercontent.com/HumanSignal/label-studio/34956bec69d347ef3b17ee8d61efb3d915e4a6e4/README.md",
+        "sha256": "40700321776602f0ee8e84bb1bc54eaa3a526dba95aa44658e2a1ee48bbcbd16",
+        "bytes": 11488
+      },
+      "LICENSE": {
+        "path": "research/HumanSignal__label-studio__LICENSE",
+        "source": "https://raw.githubusercontent.com/HumanSignal/label-studio/34956bec69d347ef3b17ee8d61efb3d915e4a6e4/LICENSE",
+        "sha256": "ca656b15c1e22468c7798df4356660755fb1ccd12d7ee0bade82bd65e3038e1b",
+        "bytes": 11341
+      }
+    }
+  },
+  {
+    "repository": "evidentlyai/evidently",
+    "checked_at": "2026-10-26T09:33:15.661635+00:00",
+    "url": "https://github.com/evidentlyai/evidently",
+    "default_branch": "main",
+    "commit": "34771fe41c08ca074d96a52aaf4a45cd640cbaf5",
+    "license_api": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "archived": false,
+    "pushed_at": "2026-09-29T08:32:43Z",
+    "files": {
+      "README.md": {
+        "path": "research/evidentlyai__evidently__README.md",
+        "source": "https://raw.githubusercontent.com/evidentlyai/evidently/34771fe41c08ca074d96a52aaf4a45cd640cbaf5/README.md",
+        "sha256": "c8ac72c2363a2f0b7c36f38a6e7801817e5659507a2e6a37212702ad1cd51c20",
+        "bytes": 8484
+      },
+      "LICENSE": {
+        "path": "research/evidentlyai__evidently__LICENSE",
+        "source": "https://raw.githubusercontent.com/evidentlyai/evidently/34771fe41c08ca074d96a52aaf4a45cd640cbaf5/LICENSE",
+        "sha256": "379054a067cbe8e134e084287550e9391d2804636687c4723f80a2c58a463f0e",
+        "bytes": 11353
+      }
+    }
+  },
+  {
+    "repository": "argilla-io/argilla",
+    "checked_at": "2026-10-26T09:33:15.661739+00:00",
+    "url": "https://github.com/argilla-io/argilla",
+    "default_branch": "develop",
+    "commit": "5338519accb13ae422f8bf9c0642651c249c49af",
+    "license_api": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "archived": false,
+    "pushed_at": "2026-10-19T23:12:17Z",
+    "files": {
+      "README.md": {
+        "path": "research/argilla-io__argilla__README.md",
+        "source": "https://raw.githubusercontent.com/argilla-io/argilla/5338519accb13ae422f8bf9c0642651c249c49af/README.md",
+        "sha256": "98e8326c9261d7b491670bb69c093bb78d41265fa94fdbd359dc3a46b2d98e34",
+        "bytes": 9279
+      },
+      "LICENSE": {
+        "path": "research/argilla-io__argilla__LICENSE",
+        "source": "https://raw.githubusercontent.com/argilla-io/argilla/5338519accb13ae422f8bf9c0642651c249c49af/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "bytes": 11357
+      }
+    }
+  },
+  {
+    "repository": "paul-rottger/hatecheck-data",
+    "checked_at": "2026-10-26T09:33:15.661839+00:00",
+    "url": "https://github.com/paul-rottger/hatecheck-data",
+    "default_branch": "main",
+    "commit": "3490854f969111a32c55c05f0d9788b471337fa9",
+    "license_api": {
+      "key": "cc-by-4.0",
+      "name": "Creative Commons Attribution 4.0 International",
+      "spdx_id": "CC-BY-4.0",
+      "url": "https://api.github.com/licenses/cc-by-4.0",
+      "node_id": "MDc6TGljZW5zZTI1"
+    },
+    "archived": false,
+    "pushed_at": "2025-10-14T07:54:55Z",
+    "files": {
+      "README.md": {
+        "path": "research/paul-rottger__hatecheck-data__README.md",
+        "source": "https://raw.githubusercontent.com/paul-rottger/hatecheck-data/3490854f969111a32c55c05f0d9788b471337fa9/README.md",
+        "sha256": "4b609fe3c0978c03d70c6db19eafb5cd74664c69608a6a7a4de5a6cfff4f2531",
+        "bytes": 2744
+      },
+      "LICENSE": {
+        "path": "research/paul-rottger__hatecheck-data__LICENSE",
+        "source": "https://raw.githubusercontent.com/paul-rottger/hatecheck-data/3490854f969111a32c55c05f0d9788b471337fa9/LICENSE",
+        "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "bytes": 18656
+      }
+    }
+  }
+]
